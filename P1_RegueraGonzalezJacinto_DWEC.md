@@ -26,7 +26,7 @@ quiere guardar su puntuación o si quiere volver a repetir el test. Si el usuari
 test que ya ha sido realizado podrá sobreescribir la puntuación antigua.
 Finalmente, una vez que el usuario haya aprobado todos los tests tendrá la opción de tomar un examen especial el cual le permitirá subir su nivel, pudiendo acceder a tests de mayor dificultad. 
 
-#### Funcionalidades del Alumno
+#### Funcionalidades del Profesor
 Cuando sea un usuario prefesor el que se ha logado, también podrá ver sus datos pero sus funcionalidades so un poco más básicas ya que su rol principalmente sería el de crear tests para los alumnos. No obstante, es el rol que más privilegios posee ya que puede acceder a los datos personales de los alumnos, pudiendo editar y/o inhabilitar usuarios alumnos.
 
 
