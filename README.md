@@ -1,2 +1,0 @@
-# P1_RegueraGonzalezJacinto_DWEC
-# P1_RegueraGonzalezJacinto_DWEC

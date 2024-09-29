@@ -26,7 +26,7 @@ quiere guardar su puntuación o si quiere volver a repetir el test. Si el usuari
 test que ya ha sido realizado podrá sobreescribir la puntuación antigua.
 Finalmente, una vez que el usuario haya aprobado todos los tests tendrá la opción de tomar un examen especial el cual le permitirá subir su nivel, pudiendo acceder a tests de mayor dificultad. 
 
-#### Funcionalidades del Profesor
+#### Funcionalidades del Alumno
 Cuando sea un usuario prefesor el que se ha logado, también podrá ver sus datos pero sus funcionalidades so un poco más básicas ya que su rol principalmente sería el de crear tests para los alumnos. No obstante, es el rol que más privilegios posee ya que puede acceder a los datos personales de los alumnos, pudiendo editar y/o inhabilitar usuarios alumnos.
 
 
@@ -93,6 +93,7 @@ Se podrán subir nuevos audios al crear tests desde la aplicación.
 
 ### Tecnologías seleccionadas para el desarrollo
 *Ez Learning* usará diferentes tipos de tecnologías para sus diferentes partes. En backend, la aplicación será desarrollada en [_Springboot_](https://spring.io/projects/spring-boot) debido a sus múltiples ventajas. Se ha decidio usar _Springboot_ como técnología para el backend principalmente porque gracias a su integración nativa con APIs REST, será más fácil la interación con frontend. Además, gracias a Spring Security podremos crear una aplicación más segura de forma fácil.
-En cuanto a la tecnología elegida para frontend, el lenguaje de programación que ha sido elegido es Javascript. Como se busca una página interactiva, Javascript viene como anillo al dedo para ello. Además, a parte de ser un lenguaje bastante bien optimizado, gracias a su amplia selección de herramientas y frameworks se podrán buscar más mejoras para la aplicación, lo que mejora su escalabilidad. Finalmente gracias a que Javascript facilita el consumo de APIs RESTful la facilitaremos la comunicación entre ambas partes del proyecto, al igual que con _Springboot_. 
+En cuanto a la tecnología elegida para frontend, el lenguaje de programación que ha sido elegido es Javascript. Como se busca una página interactiva, Javascript viene como anillo al dedo para ello. Además, a parte de ser un lenguaje bastante bien optimizado, gracias a su amplia selección de herramientas y frameworks se podrán buscar más mejoras para la aplicación, lo que mejora su escalabilidad. Finalmente gracias a que Javascript facilita el consumo de APIs RESTful la facilitaremos la comunicación entre ambas partes del proyecto, al igual que con _Springboot_.
+Estas dos técnologías son las bases de la aplicación, pero en el [Informe Técnico]() se hablará en más profundidad de otras tecnologías que serán utilizadas durante el desarrollo del proyecto.
 
 
