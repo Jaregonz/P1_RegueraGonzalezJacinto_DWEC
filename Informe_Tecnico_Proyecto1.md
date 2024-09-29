@@ -33,16 +33,17 @@ En conclusión, para garantizar que una _Ez Learning_ funcione de manera óptima
 
 
 ### Tecnológias a utilizar
-En este apartado se entrará más en profundidad en las tecnologías que se van a usar para el desarrollo de _Ez Learning_, de las cuales algunas han sido mencionadas en apartado anteriores. Primero empecemos con las herramientas de programación web:
+En este apartado se entrará más en profundidad en las tecnologías que se van a usar para el desarrollo de _Ez Learning_, de las cuales algunas han sido mencionadas en apartado anteriores. Primero empecemos con las herramientas de programación web.
 
-    ##### Frameworks
-    * *Springboot* : Como se ha ido mencionando a lo largo de ambos documentos _Springboot_ es el framework seleccionado para la parte de backend de nuestra aplicación. _Spring_ es un popular framework empresarial de código abierto que sirve para crear aplicaciones autónomas de producción que se ejecutan en una máquina virtual Java (JVM). Gracias a sus tres funciones principales (configuración automática, enfoque de configuración obstinado y su capacidad de crear aplicaciones autónomas), _Springboot_ es una herramienta que acelera y simplifica el desarrollo de microservicios y aplicaciones web con el framework de _Spring_.
-
-
+##### Frameworks
+* *Springboot* : Como se ha ido mencionando a lo largo de ambos documentos _Springboot_ es el framework seleccionado para la parte de backend de nuestra aplicación. _Spring_ es un popular framework empresarial de código abierto que sirve para crear aplicaciones autónomas de producción que se ejecutan en una máquina virtual Java (JVM). Gracias a sus tres funciones principales (configuración automática, enfoque de configuración obstinado y su capacidad de crear aplicaciones autónomas), _Springboot_ es una herramienta que acelera y simplifica el desarrollo de microservicios y aplicaciones web con el framework de _Spring_.
 
 
 
-    ##### Editores de código
-    * *IntelliJ IDEA Community Edition 2024.2.1* : IntelliJ será el editor de código que usaremos para programar. Como el lenguaje que se va a a utilizar en el desarrollo backend es _Java_ y como también se usará _JavaScrpt_ para el front, IntelliJ es el editor idóneo puesto que aunque  está optimizado para _Java_, ofrece un soporte robusto para muchos otros lenguajes de programación populares, y JavaScript está entre ellos. Además facilitará el desarrollo gracias a sus diversas herramientas, como sus avanzada depuración  y su eficaz refactorización, y a su alta compatibilidad con los _frameworks_ más populares, entre los que se encuentra _Springboot_ y _React_.
-    * *Visual Studio Code* : Visual Studio será el editor usado para la parte de lenguaje de marcas. Visual Studio Code, también llamado  VSCode, es un editor de código desarrollado por Microsoft gratuito, de código abierto y multiplataforma. Gracias al uso de extensiones puede funcionar case al nivel de un IDE (entorno de desarrollo). VSCode ha sido elegido para el desarrollo de la parte de lenguaje de marcas de _Ez Learning_ ya que gracias al uso de extensiones como _HTML Snippet_, que proporciona fragmentos de HTML listos para usar, y _Auto Close Tag_/_Auto Rename Tag_, que permiten el cierre automático de etiquetas y renombrarlas de forma fácil, será mucho más sencillo llevar a cabo el desarrollo de la parte front relacionada con el lenguaje de marcas.
+
+
+##### Editores de código
+* *IntelliJ IDEA Community Edition 2024.2.1* : IntelliJ será el editor de código que usaremos para programar. Como el lenguaje que se va a a utilizar en el desarrollo backend es _Java_ y como también se usará _JavaScrpt_ para el front, IntelliJ es el editor idóneo puesto que aunque  está optimizado para _Java_, ofrece un soporte robusto para muchos otros lenguajes de programación populares, y JavaScript está entre ellos. Además facilitará el desarrollo gracias a sus diversas herramientas, como sus avanzada depuración  y su eficaz refactorización, y a su alta compatibilidad con los _frameworks_ más populares, entre los que se encuentra _Springboot_ y _React_.
+
+* *Visual Studio Code* : Visual Studio será el editor usado para la parte de lenguaje de marcas. Visual Studio Code, también llamado  VSCode, es un editor de código desarrollado por Microsoft gratuito, de código abierto y multiplataforma. Gracias al uso de extensiones puede funcionar case al nivel de un IDE (entorno de desarrollo). VSCode ha sido elegido para el desarrollo de la parte de lenguaje de marcas de _Ez Learning_ ya que gracias al uso de extensiones como _HTML Snippet_, que proporciona fragmentos de HTML listos para usar, y _Auto Close Tag_/_Auto Rename Tag_, que permiten el cierre automático de etiquetas y renombrarlas de forma fácil, será mucho más sencillo llevar a cabo el desarrollo de la parte front relacionada con el lenguaje de marcas.
 
