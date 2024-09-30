@@ -1,6 +1,6 @@
 # *Ez Learning*
 
-![](imagenes/Icono EzLearning.png){width='100px'}
+!["Icono"](./imagenes/Icono EzLearning.png){width='100px'}
 
 
 

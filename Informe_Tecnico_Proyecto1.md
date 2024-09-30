@@ -1,6 +1,6 @@
 # Informe técnico
 
-![](imagenes/Icono EzLearning.png){width='100px'}
+!["Icono"](./imagenes/Icono EzLearning.png){width='100px'}
 
 
 ### Modelos de ejecución
