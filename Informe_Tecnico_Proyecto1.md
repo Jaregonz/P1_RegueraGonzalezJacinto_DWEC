@@ -4,7 +4,7 @@
 
 
 ### Modelos de ejecución
-Aunque hay varios tipos de modelos de ejecución cliente/servidor, hay dos que destacan por encima de los demás y son los más utilizados: el modelo **Cliente/Cervidor Clásico** y el modelo **Peer-to-Peer (P2P)**.
+Aunque hay varios tipos de modelos de ejecución cliente/servidor, hay dos que destacan por encima de los demás y son los más utilizados: el modelo **Cliente/Servidor Clásico** y el modelo **Peer-to-Peer (P2P)**.
 El **modelo Cliente/Servidor clásico** es una arquitectura centralizada en la que el servidor se encarga de gestionar los recursos, guarda los datos y procesa las solicitudes, mientras que el cliente solo se encarga de realizar solicitudes al servidor. En este modelo el servidor es más poderoso y los clientes solo pueden consumir los recursos que este gestiona, lo que hace que sea el modelo más seguro de los dos ya que solo se ha de aplicar los métodos de seguridad en el servidor central para proteger los datos de la aplicación. Debido a la centralización del servidor, este modelo conlleva algunas desventajas como, por ejemplo, que si falla el servidor los clientes no pueden acceder a los recursos y también se pueden dar cuellos de botella si demasiados clientes intentan acceder al servidor a la vez. Un ejemplo de este modelo sería una aplicación web en la que un navegador solicita una página web al servidor, al que este le devuelve con los datos (en este caso el cliente sería el navegador mientras que el servidor podría ser un servidor web de Apache o Nginx).
 De este modelo hay varios subtipos, pero los más relevantes son los siguientes: 
 
