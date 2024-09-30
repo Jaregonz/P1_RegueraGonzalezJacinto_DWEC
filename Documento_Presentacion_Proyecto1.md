@@ -1,5 +1,9 @@
 # *Ez Learning*
 
+![](imagenes/Icono EzLearning.png){width='100px'}
+
+
+
 ### Idea de la aplicación
 
 *Ez Learning* será una aplicación web cuya finalidad consistirá  en mejorar el nivel de inglés de los usuarios de forma fácil y entretenida.
@@ -94,6 +98,6 @@ Se podrán subir nuevos audios al crear tests desde la aplicación.
 ### Tecnologías seleccionadas para el desarrollo
 *Ez Learning* usará diferentes tipos de tecnologías para sus diferentes partes. En backend, la aplicación será desarrollada en [_Springboot_](https://spring.io/projects/spring-boot) debido a sus múltiples ventajas. Se ha decidio usar _Springboot_ como técnología para el backend principalmente porque gracias a su integración nativa con APIs REST, será más fácil la interación con frontend. Además, gracias a Spring Security podremos crear una aplicación más segura de forma fácil.
 En cuanto a la tecnología elegida para frontend, el lenguaje de programación que ha sido elegido es Javascript. Como se busca una página interactiva, Javascript viene como anillo al dedo para ello. Además, a parte de ser un lenguaje bastante bien optimizado, gracias a su amplia selección de herramientas y frameworks se podrán buscar más mejoras para la aplicación, lo que mejora su escalabilidad. Finalmente gracias a que Javascript facilita el consumo de APIs RESTful la facilitaremos la comunicación entre ambas partes del proyecto, al igual que con _Springboot_.
-Estas dos técnologías son las bases de la aplicación, pero en el [Informe Técnico]() se hablará en más profundidad de otras tecnologías que serán utilizadas durante el desarrollo del proyecto.
+Estas dos técnologías son las bases de la aplicación, pero en el [Informe Técnico](https://github.com/Jaregonz/P1_RegueraGonzalezJacinto_DWEC/blob/main/Informe_Tecnico_Proyecto1.md) se hablará en más profundidad de otras tecnologías que serán utilizadas durante el desarrollo del proyecto.
 
 

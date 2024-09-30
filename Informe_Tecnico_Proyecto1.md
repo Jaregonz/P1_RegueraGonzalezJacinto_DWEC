@@ -1,5 +1,8 @@
 # Informe técnico
 
+![](imagenes/Icono EzLearning.png){width='100px'}
+
+
 ### Modelos de ejecución
 Aunque hay varios tipos de modelos de ejecución cliente/servidor, hay dos que destacan por encima de los demás y son los más utilizados: el modelo **Cliente/Cervidor Clásico** y el modelo **Peer-to-Peer (P2P)**.
 El **modelo Cliente/Servidor clásico** es una arquitectura centralizada en la que el servidor se encarga de gestionar los recursos, guarda los datos y procesa las solicitudes, mientras que el cliente solo se encarga de realizar solicitudes al servidor. En este modelo el servidor es más poderoso y los clientes solo pueden consumir los recursos que este gestiona, lo que hace que sea el modelo más seguro de los dos ya que solo se ha de aplicar los métodos de seguridad en el servidor central para proteger los datos de la aplicación. Debido a la centralización del servidor, este modelo conlleva algunas desventajas como, por ejemplo, que si falla el servidor los clientes no pueden acceder a los recursos y también se pueden dar cuellos de botella si demasiados clientes intentan acceder al servidor a la vez. Un ejemplo de este modelo sería una aplicación web en la que un navegador solicita una página web al servidor, al que este le devuelve con los datos (en este caso el cliente sería el navegador mientras que el servidor podría ser un servidor web de Apache o Nginx).
@@ -49,6 +52,9 @@ En este apartado se entrará más en profundidad en las tecnologías que se van 
 * **IntelliJ IDEA Community Edition 2024.2.1** : IntelliJ será el editor de código que usaremos para programar. Como el lenguaje que se va a a utilizar en el desarrollo backend es _Java_ y como también se usará _JavaScrpt_ para el front, IntelliJ es el editor idóneo puesto que aunque  está optimizado para _Java_, ofrece un soporte robusto para muchos otros lenguajes de programación populares, y JavaScript está entre ellos. Además facilitará el desarrollo gracias a sus diversas herramientas, como sus avanzada depuración  y su eficaz refactorización, y a su alta compatibilidad con los _frameworks_ más populares, entre los que se encuentra _Springboot_ y _React_.
 
 * **Visual Studio Code** : Visual Studio será el editor usado para la parte de lenguaje de marcas. Visual Studio Code, también llamado  VSCode, es un editor de código desarrollado por Microsoft gratuito, de código abierto y multiplataforma. Gracias al uso de extensiones puede funcionar case al nivel de un IDE (entorno de desarrollo). VSCode ha sido elegido para el desarrollo de la parte de lenguaje de marcas de _Ez Learning_ ya que gracias al uso de extensiones como _HTML Snippet_, que proporciona fragmentos de HTML listos para usar, y _Auto Close Tag_/_Auto Rename Tag_, que permiten el cierre automático de etiquetas y renombrarlas de forma fácil, será mucho más sencillo llevar a cabo el desarrollo de la parte front relacionada con el lenguaje de marcas.
+
+### 
+
 
 ### Análisis de mercado
 El mercado de idiomas, particularmente el inglés, ha experimentado un crecimiento exponencial en los últimos años. Esto ha sido debido a la globalización y a la necesidad de aprender nuevos lenguajes en el ámbito laboral. Se estima que el mercado global experimente una enorme expansión, llegando a  los 36.400,33 millones de dólares, lo que hace que se pueda considerar un sector en expansión.
