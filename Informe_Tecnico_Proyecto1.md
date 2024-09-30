@@ -1,6 +1,6 @@
 # Informe técnico
 
-!["Icono"](https://github.com/Jaregonz/P1_RegueraGonzalezJacinto_DWEC/blob/main/imagenes/Icono%20EzLearning.png){width='100px'}
+!["Icono"](https://github.com/Jaregonz/P1_RegueraGonzalezJacinto_DWEC/blob/main/imagenes/Icono%20EzLearning.png)
 
 
 ### Modelos de ejecución
@@ -16,6 +16,8 @@ En el caso del **modelo Peer-to-Peer (P2P)** no existe un servidor central. Cada
 
 **Ez Learning** será desarrollada en base al modelo **Cliente/Cervidor Clásico de dos capas**, ya que como la aplicación será pequeña y destinada a una clase, es decir, pocos usuarios, las ventajas y la forma de centralizar los datos es lo que más se adecúa a lo que se quiere lograr.
 
+
+
 ### Lenguajes de Programación web
 Como se ha indicado en el [documento de presentación](https://github.com/Jaregonz/P1_RegueraGonzalezJacinto_DWEC/blob/main/Documento_Presentacion_Proyecto1.md), la aplicación utilizará en su front el lenguaje _JavaScript_. _JavaScript_ es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas considerandose una de las principales tecnologías de las webs.
 _JavaScript_ se considera como un lenguaje de _scripting_ o interpretado ya que se ejecuta en el navegador del cliente gracias a los motores de _JavaScript_ que estos suele traer incorporados y esto hace que se acelere la ejecución de código y del sitio web ya que se reduce la carga en el servidor. Además gracias a este lenguaje se pueden crear páginas webs dinámicas y al ser un lenguaje asíncrono permite la ejecución de múltiples tareas sin bloquear la ejecución principal del programa. No obstante, _JavaScript_ tiene algunos inconvenientes a la hora de su uso, ya que aunque sea compatible con la mayoría de lenguajes de programación, hay diferecias respecto al soporte del navegador por eso hay veces en las que los navegadores lo interpretan de forma diferente, cosa que está siendo arreglada con cada actualización del lenguaje. Además, dado a que se relaciona con elementos como HTML, muchas veces hay problemas con la depuración y la localización sencilla de errores en los programas de código. Finalmente otra gran desventaja que contiene es su seguridad, ya que como el código se ejecuta directamente en el navegador si es una amenaza común los scripts maliciosos, por lo que siempre hay que asegurarse se porteger bien el código.
@@ -24,6 +26,7 @@ Como se ha mencionado anteriormente, _JavaScript_ permite el desarrollo de aplic
 En backend, se va a ultilizar el framework de _Springboot_ como tecnología de desarrollo. Consecuentemente se usará _Java_ como lenguaje de back.
 _Java_ es un lenguaje de programación multiplataforma orientado a objetos que se ejecuta en miles de millones de dispositivos de todo el mundo y es considerado el lenguaje de programación más popular en el mercado. Este lenguaje tiene varias ventajas a parte de ser multiplataforma y ser orientado a objetos, como por ejemplo su seguridad ya que posee mecanismos de seguridad integrados como el control de acceso mediante modificadores.Sin embargo, _Java_ tiene un inconveniente y es que su rendimiento es menor y tiene mayor consumo de memoria que otros lenguajes de programación.
 A pesar de estos invonvenientes, _Java_ sigue siendo idóneo para _Ez Learning_ puesto que si se quiere llegar al mayor número de público posible, es fundamental contar con un lenguaje que se pueda adaptar al máximo número de dispositivos posible.
+
 
 
 ### Estudio sobre la compatibilidad en navegadores y compatibilidad de los lenguajes de marcas.
@@ -35,11 +38,13 @@ En lo referente a la compatibilidad de los lenguajes de marcas, aunque HTML y CS
 En conclusión, para garantizar que una _Ez Learning_ funcione de manera óptima en diferentes navegadores, será fundamental hacer uso de herramientas como Babel, y Modernizr.
 
 
+
 ### Tecnológias a utilizar
 En este apartado se entrará más en profundidad en las tecnologías que se van a usar para el desarrollo de _Ez Learning_, de las cuales algunas han sido mencionadas en apartado anteriores. Primero empecemos con las herramientas de programación web.
 
 ##### Frameworks
 * **Springboot** : Como se ha ido mencionando a lo largo de ambos documentos _Springboot_ es el framework seleccionado para la parte de backend de nuestra aplicación. _Spring_ es un popular framework empresarial de código abierto que sirve para crear aplicaciones autónomas de producción que se ejecutan en una máquina virtual Java (JVM). Gracias a sus tres funciones principales (configuración automática, enfoque de configuración obstinado y su capacidad de crear aplicaciones autónomas), _Springboot_ es una herramienta que acelera y simplifica el desarrollo de microservicios y aplicaciones web con el framework de _Spring_. _Springboot_ es una poderosa herramienta que gracias a su enfoque en simplificar y facilitar el uso de _Spring_, su configuración automática y, sobre todo, su fácil integración con otras tecnologías harán que sea el framework idóneo para el desarrollo de la aplicación.
+
 
 ##### Librerías
 * **React** : React es una librería para crear interfaces de usuarios con código abierto, es decir, que está a disposición de cualquier programador. Fue desarrollada por Facebook y su base es _JavaScript_. La función principal de React es desarrollar páginas web de una manera sencilla gracias a sus componentes reutilizables. Estos hacen posible usar un mismo elemento en varias partes del sitio o en otros sitios sin necesidad de volver a escribir todo el código. Gracias a esto, a la mejora de rendimiento con el Virtual DOM, y su flexibilidad para integrarse con otras herramienta hacen de React la librería idónea para el front de _Ez Learning_
@@ -53,7 +58,13 @@ En este apartado se entrará más en profundidad en las tecnologías que se van 
 
 * **Visual Studio Code** : Visual Studio será el editor usado para la parte de lenguaje de marcas. Visual Studio Code, también llamado  VSCode, es un editor de código desarrollado por Microsoft gratuito, de código abierto y multiplataforma. Gracias al uso de extensiones puede funcionar case al nivel de un IDE (entorno de desarrollo). VSCode ha sido elegido para el desarrollo de la parte de lenguaje de marcas de _Ez Learning_ ya que gracias al uso de extensiones como _HTML Snippet_, que proporciona fragmentos de HTML listos para usar, y _Auto Close Tag_/_Auto Rename Tag_, que permiten el cierre automático de etiquetas y renombrarlas de forma fácil, será mucho más sencillo llevar a cabo el desarrollo de la parte front relacionada con el lenguaje de marcas.
 
-### 
+
+### Análisis de los Mecanismos de Integración entre lenguaje de marcas y lenguajes de programación web
+En el desarrollo web, la integración de lenguajes de marcas con lenguajes de programación web es esencial para aplicaciones dinámicas.
+En el caso de nuestra aplicación usaremos HTML y CSS como lenguaje de marcas y _JavaScript_ como lenguaje de rpogramación web. HTML define la estructura de la página mientras que CSS se encarga de la apariencia visual. Sin embargo, por sí solos no permiten interactividad, cosa lograda mediante la manipulación del DOM (Document Object Model) gracias a _JavaScript_. 
+El DOM actúa como un "puente" que conecta el código estático de HTML y CSS con la lógica interactiva de JavaScript. A través de este modelo, podemos alterar dinámicamente el contenido y los estilos de una página sin necesidad de recargarla.
+Es por eso que _JavaScript_ nos permite modificar el contenido y los estilos en tiempo real en base a las necesidades del usuario y nos permite gestionar eventos como los clicks o las entradas de texto sin tener que recargar la página, lo que nos permite el desarrollo de aplicaciones web interactivas y funcionales.
+Además, gracias a los mecanismos de de compatibilidad, como Babel, y el uso de bibliotecas, como _React_, es mucho más fácil que en el pasado lo que ha permitido a los desarrolladores superar los problemas de compatibilidad y rendimiento.
 
 
 ### Análisis de mercado
