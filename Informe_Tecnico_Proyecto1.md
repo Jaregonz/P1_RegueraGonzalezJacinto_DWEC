@@ -1,6 +1,6 @@
 # Informe técnico
 
-!["Icono"](./imagenes/Icono EzLearning.png){width='100px'}
+!["Icono"](https://github.com/Jaregonz/P1_RegueraGonzalezJacinto_DWEC/blob/main/imagenes/Icono%20EzLearning.png){width='100px'}
 
 
 ### Modelos de ejecución
